@@ -53,15 +53,15 @@ Bem-vindo! Este repositório é o meu espaço de estudos — um “diário de bo
    ou abra diretamente pelo **VSCode** com a extensão “Jupyter”.
 
 ## Roadmap de aprendizado (rascunho)
-- [ ] Fundamentos: tipos, variáveis, `input()`, `print()`
-- [ ] Estruturas: `if`, `for`, `while`
-- [ ] **Listas**, tuplas, dicionários; *list/dict comprehension*
-- [ ] **Funções** (`def`, parâmetros, `return`, escopo)
+- [X] Fundamentos: tipos, variáveis, `input()`, `print()`
+- [X] Estruturas: `if`, `for`, `while`
+- [X] **Listas**, tuplas, dicionários; *list/dict comprehension*
+- [X] **Funções** (`def`, parâmetros, `return`, escopo)
 - [ ] **Classes** e POO (atributos, métodos, `__init__`)
 - [ ] **Pandas**: `Series`, `DataFrame`, leitura de CSV, `head()`, `info()`
-- [ ] Boas práticas: nomeação, organização de pastas, `requirements.txt`
-- [ ] Testes básicos com `pytest`
-- [ ] Projetinhos: conversores, jogos simples, automações
+- [X] Boas práticas: nomeação, organização de pastas, `requirements.txt`
+- [X] Testes básicos com `pytest`
+- [X] Projetinhos: conversores, jogos simples, automações
 
 ## Convenções e boas práticas
 - Arquivos grandes ou gerados (datasets, `.ipynb_checkpoints/`) ficam fora do Git.
