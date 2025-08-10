@@ -1,24 +1,24 @@
-# Python Basics – Learning Repository
+# Python Basics — Learning Repository
 
-> **Status:** iniciante praticando Python do zero para construir base sólida.
+> **Status:** beginner practicing Python from scratch to build a solid foundation.
 
-Bem-vindo! Este repositório é o meu espaço de estudos — um “diário de bordo” onde guardo **meu primeiro contato com Python**. Aqui você vai encontrar **aulas, exercícios e pequenas práticas**, com foco em consolidar fundamentos (ex.: **classes, listas, funções**) e começar a explorar bibliotecas como **Pandas**.
+Welcome! This repository is my study space — a **logbook of my first contact with Python**. You’ll find **lessons, exercises, and small practices** focused on consolidating fundamentals (e.g., **classes, lists, functions**) and starting to explore libraries like **Pandas**.
 
-## Objetivos
-- Registrar meu progresso como **iniciante** em Python.
-- Manter exemplos simples e comentados que eu mesmo possa revisar.
-- Centralizar **lições** e **práticas**: de **classes** a **listas**, passando por **funções** e **Pandas**.
+## Goals
+- Track my progress as a **beginner** in Python.
+- Keep simple, commented examples I can review later.
+- Centralize **lessons** and **practice**: from **classes** to **lists**, including **functions** and **Pandas**.
 
-## O que tem aqui
+## What’s inside
 - Pandas (dataframes, basic exploration)
-- Funções em Python (`def`, parâmetros, retorno)
-- Listas (criação, slicing, métodos)
-- Pequenos projetos utilitários (ex.: conversores)
-- Listas de exercícios e prática guiada
-- Anotações e notebooks de aula
-- Avaliações/Provas simuladas
+- Functions in Python (`def`, parameters, return)
+- Lists (creation, slicing, methods)
+- Small utility projects (e.g., converters)
+- Exercise sets and guided practice
+- Class notes and notebooks
+- Assessments / simulated exams
 
-## Estrutura atual (resumo do que foi enviado)
+## Current structure (summary of what’s included)
 ```
 📄 AV 4
 📄 Aula 10, Lista de Exercicios VIII, Listas
@@ -28,52 +28,60 @@ Bem-vindo! Este repositório é o meu espaço de estudos — um “diário de bo
 📄 Conversor Básico.ipynb
 📄 Exercícios Extras.ipynb
 📄 Exercícios Propostos.ipynb
+📄 Missão 1.sql
+📄 Missão 2.sql
+📄 Missão 3.sql
+📄 Missão 4.sql
+📄 Missão 5.sql
+📄 Missão 6.sql
 📄 Pandas Exploration.ipynb
+📄 README_SQL.md
+📄 README_SQL_EN.md
 ```
 
-> Obs.: nomes seguem o padrão das aulas/listas que estou usando no curso; podem mudar à medida que organizo melhor.
+> Note: filenames follow the naming used in my course/class materials and may change as I reorganize.
 
-## Como usar
-1. **Clonar** o repositório e abrir no VSCode (ou Jupyter):
+## How to use
+1. **Clone** the repository and open it in VSCode (or Jupyter):
    ```bash
-   git clone <URL-do-repo>
-   cd <pasta-do-repo>
+   git clone <REPO-URL>
+   cd <REPO-FOLDER>
    ```
-2. (Opcional) **Criar venv** e instalar dependências usadas nos notebooks:
+2. (Optional) **Create a virtual environment** and install basic dependencies for notebooks:
    ```bash
    python3 -m venv .venv
-   source .venv/bin/activate   # no Windows: .venv\Scripts\activate
+   source .venv/bin/activate   # Windows: .venv\Scripts\activate
    pip install -U pip
    pip install pandas jupyter ipykernel
    ```
-3. **Rodar notebooks**:
+3. **Run notebooks**:
    ```bash
    jupyter notebook
    ```
-   ou abra diretamente pelo **VSCode** com a extensão “Jupyter”.
+   or open them directly in **VSCode** with the “Jupyter” extension.
 
-## Roadmap de aprendizado (rascunho)
-- [X] Fundamentos: tipos, variáveis, `input()`, `print()`
-- [X] Estruturas: `if`, `for`, `while`
-- [X] **Listas**, tuplas, dicionários; *list/dict comprehension*
-- [X] **Funções** (`def`, parâmetros, `return`, escopo)
-- [ ] **Classes** e POO (atributos, métodos, `__init__`)
-- [ ] **Pandas**: `Series`, `DataFrame`, leitura de CSV, `head()`, `info()`
-- [X] Boas práticas: nomeação, organização de pastas, `requirements.txt`
-- [X] Testes básicos com `pytest`
-- [X] Projetinhos: conversores, jogos simples, automações
+## Learning roadmap (draft)
+- [X] Fundamentals: types, variables, `input()`, `print()`
+- [X] Control flow: `if`, `for`, `while`
+- [X] **Lists**, tuples, dictionaries; list/dict comprehensions
+- [X] **Functions** (`def`, parameters, `return`, scope)
+- [ ] **Classes** and OOP (attributes, methods, `__init__`)
+- [X] **Pandas**: `Series`, `DataFrame`, reading CSV, `head()`, `info()`
+- [ ] Best practices: naming, folder organization, `requirements.txt`
+- [ ] Basic tests with `pytest`
+- [ ] Mini‑projects: converters, small games, automations
 
-## Convenções e boas práticas
-- Arquivos grandes ou gerados (datasets, `.ipynb_checkpoints/`) ficam fora do Git.
-- Uso um **`.gitignore`** para evitar enviar coisas desnecessárias.
-- Commits curtos e descritivos (ex.: `feat: add list exercises` / `fix: pandas example`).
+## Conventions & good practices
+- Large/generated files (datasets, `.ipynb_checkpoints/`) stay out of Git.
+- Use a **`.gitignore`** to avoid committing unnecessary files.
+- Commit early and small, with clear messages (e.g., `feat: add list exercises`, `fix: pandas example`).
 
-## O que ainda pretendo adicionar
-- `requirements.txt` e/ou `environment.yml` para reproduzir ambiente
-- Pasta `data/` com exemplos simples (ou link para dados públicos)
-- `LICENSE` (provável MIT) e uma descrição em inglês
-- Uma pasta `projects/` com pequenos desafios aplicados
+## What I plan to add
+- `requirements.txt` and/or `environment.yml`
+- A `data/` folder with tiny sample datasets (or links to public data)
+- A `LICENSE` (likely MIT) and an English + Portuguese description
+- A `projects/` folder with small applied challenges
 
 ---
 
-> **Nota para recrutadores/mentores:** este repositório mostra meu progresso inicial. Feedbacks são bem-vindos!
+> **Note for recruiters/mentors:** this repo shows my early progress. Feedback is very welcome!
